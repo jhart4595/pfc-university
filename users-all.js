@@ -1,4 +1,8 @@
+$('.list-preload').css({display: 'flex'});
+
 $(document).ready(function(){
+
+  $('.list-preload').css({display: 'none'});
 
   $('.open-new-users-modal').click(function(){
     $('.new-users-modal').css({display: 'flex'});
